@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/14173260/creating-shared-libraries-in-c-for-osx
+https://stackoverflow.com/questions/31160475/how-to-create-a-shared-library-so-file-in-mac-os-x-using-terminal
+https://stackoverflow.com/questions/1937232/linking-to-a-dynamic-library-on-a-mac-with-full-path
+
+If I mmap a gigabyte I see these:
+> VM_ALLOCATE                      128.0M       4K       4K       0K       0K       0K       0K        1
+> VM_ALLOCATE (reserved)           825.7M       0K       0K       0K       0K       0K       0K        1         reserved VM address space (unallocated)
+
+And that's gone again after a mmunmap
